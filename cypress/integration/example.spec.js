@@ -4,7 +4,7 @@ const exampleTest = {
       <script>
         const header = document.getElementById("header")
         header.addEventListener('click', function () {
-        console.log('This function is executed once the page is fully loaded');
+        console.log('This function is executed when clicking on the header.');
         });
        </script>
     `,
